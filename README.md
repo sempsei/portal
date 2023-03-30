@@ -10,4 +10,4 @@ Get your API here: https://newsapi.org/ and insert in JS code
 
 ## Exemplo nova versão (Example new version):
 
-![](new.gif)
+![](newversion.gif)
