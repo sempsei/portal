@@ -11,6 +11,7 @@ fetch(
       const link = document.createElement("a");
       link.href = article.url;
       link.textContent = article.title;
+      link.target = "_blank"; // Abre o link em uma nova aba
       li.appendChild(link);
       geraisLista.appendChild(li);
     });
@@ -30,6 +31,7 @@ fetch(
       const link = document.createElement("a");
       link.href = article.url;
       link.textContent = article.title;
+      link.target = "_blank"; // Abre o link em uma nova aba
       li.appendChild(link);
       esportesLista.appendChild(li);
     });
@@ -49,6 +51,7 @@ fetch(
       const link = document.createElement("a");
       link.href = article.url;
       link.textContent = article.title;
+      link.target = "_blank"; // Abre o link em uma nova aba
       li.appendChild(link);
       cienciaLista.appendChild(li);
     });
@@ -68,6 +71,7 @@ fetch(
       const link = document.createElement("a");
       link.href = article.url;
       link.textContent = article.title;
+      link.target = "_blank"; // Abre o link em uma nova aba
       li.appendChild(link);
       tecnologiaLista.appendChild(li);
     });
