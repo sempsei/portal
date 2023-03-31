@@ -2,7 +2,7 @@
 const geraisLista = document.getElementById("gerais-lista");
 
 fetch(
-  "https://newsapi.org/v2/top-headlines?country=us&apiKey=c4b913c495fe4138b231641539267631"
+  "https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR_API_KEY"
 )
   .then((response) => response.json())
   .then((data) => {
@@ -22,7 +22,7 @@ fetch(
 const esportesLista = document.getElementById("esportes-lista");
 
 fetch(
-  "https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=c4b913c495fe4138b231641539267631"
+  "https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=YOUR_API_KEY"
 )
   .then((response) => response.json())
   .then((data) => { 
@@ -42,7 +42,7 @@ fetch(
 const cienciaLista = document.getElementById("ciencia-lista");
 
 fetch(
-  "https://newsapi.org/v2/top-headlines?country=us&category=science&apiKey=c4b913c495fe4138b231641539267631"
+  "https://newsapi.org/v2/top-headlines?country=us&category=science&apiKey=YOUR_API_KEY"
 )
   .then((response) => response.json())
   .then((data) => {
@@ -62,7 +62,7 @@ fetch(
 const tecnologiaLista = document.getElementById("tecnologia-lista");
 
 fetch(
-  "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=c4b913c495fe4138b231641539267631"
+  "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=YOUR_API_KEY"
 )
   .then((response) => response.json())
   .then((data) => {
