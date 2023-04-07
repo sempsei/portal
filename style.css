@@ -16,7 +16,8 @@ nav {
 nav ul {
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding: 10px;
+	display: block;
 }
 
 nav li {
@@ -29,7 +30,11 @@ nav a {
 	text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
+	text-decoration: underline;
+}
+
+section a:hover {
 	text-decoration: underline;
 	font-size: larger;
 }
