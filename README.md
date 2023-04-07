@@ -10,8 +10,8 @@ API é free somente para aplicações locais / API is free only for local applic
 
 ## Exemplo versão antiga (Example old version):
 
-![](exemplo.gif)
+![](./gif/exemplo.gif)
 
 ## Exemplo nova versão (Example new version):
 
-![](newversion.gif)
+![](./gif/newversion.gif)
