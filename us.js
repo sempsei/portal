@@ -25,7 +25,7 @@ fetch(
   "https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=YOUR_API_KEY"
 )
   .then((response) => response.json())
-  .then((data) => { 
+  .then((data) => {
     data.articles.forEach((article) => {
       const li = document.createElement("li");
       const link = document.createElement("a");
